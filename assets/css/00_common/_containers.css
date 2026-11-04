@@ -1,0 +1,5 @@
+.container {
+    max-width: 1600px; 
+    padding-left: var(--padding-64);
+    padding-right: var(--padding-64);
+}

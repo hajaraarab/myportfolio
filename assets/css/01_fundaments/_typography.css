@@ -1,0 +1,23 @@
+p{
+    font-family: var(--font-body);
+}
+
+.logo-text{
+    font-family: var(--font-logo);
+    font-size: var(--font-size-logo-text);
+    color: var(--color-primary); 
+}
+
+.logo-link{
+    font-family: var(--font-body);
+    font-size: var(--font-size-logo-link);
+    text-transform: uppercase; 
+    color: var(--color-primary); 
+}
+
+.menu-link{
+    font-family: var(--font-body);
+    font-size: var(--font-size-menu);
+    color: var(--color-primary-dark); 
+    text-decoration: none; 
+}

@@ -1,0 +1,11 @@
+.contact-btn {
+    background-color: var(--color-secondary);
+    color: white;
+    border: none;
+    padding: var(--padding-16) var(--padding-24);
+    border-radius: var(--border-radius-full);
+    text-decoration: none;
+    font-family: var(--font-body);
+    font-size: var(--font-size-menu);
+    font-weight: var(--font-weight-semibold);
+}
