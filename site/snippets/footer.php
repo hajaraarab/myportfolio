@@ -1,7 +1,8 @@
+</div> <!-- einde container -->
+
 <footer>
-    <p>&copy; <?= date('Y') ?> My Portfolio</p>
+    <p>&copy; <?= date('Y') ?> Hajar Aarab</p>
 </footer>
 
-</div> <!-- einde container -->
 </body>
 </html>
