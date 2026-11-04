@@ -33,6 +33,22 @@ Heroimage: - file://dqlv8t3c6mahdsad
 
 ----
 
+Button1text: text
+
+----
+
+Button1link: page://gpaj8xnw0nyzjzp0
+
+----
+
+Button2text: text
+
+----
+
+Button2link: page://gpaj8xnw0nyzjzp0
+
+----
+
 Uuid: gpaj8xnw0nyzjzp0
 
 ----

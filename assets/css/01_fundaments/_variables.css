@@ -11,11 +11,15 @@
     --font-size-logo-link: 0.65rem; /* 10.4px */
 
     --font-size-menu: 0.875rem; /* 14px */
+    --font-size-body: 1rem; /* 16px */
 
     /* Colors */
+    --color-primary-light: #E0DED3; 
     --color-primary: #364831;
     --color-primary-dark: #263223; 
+    --color-primary-medium-dark: #5F665A; 
     --color-secondary: #C38C37;
+
 
     /* Spacing */
     --gap-4: 0.25rem;  /* 4px */

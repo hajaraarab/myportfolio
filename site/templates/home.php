@@ -23,8 +23,30 @@
             <p class="header-text">
                 <?= $page->description()->html() ?>
             </p>
+
+            <div class="hero-buttons">
+
+                <?php if ($page->button1Text()->isNotEmpty() && $page->button1Link()->isNotEmpty()): ?>
+                    <a 
+                        href="<?= $page->button1Link()->toUrl() ?>"
+                        class="primary-btn"
+                    >
+                        <?= $page->button1Text()->esc() ?>
+                    </a>
+                <?php endif; ?>
+
+                <?php if ($page->button2Text()->isNotEmpty() && $page->button2Link()->isNotEmpty()): ?>
+                    <a 
+                        href="<?= $page->button2Link()->toUrl() ?>"
+                        class="secondary-btn"
+                    >
+                        <?= $page->button2Text()->esc() ?>
+                    </a>
+                <?php endif; ?>
+
+            </div>
         </div>
-        
+
         <div class="image">
             <?php if ($heroImage = $page->heroImage()->toFile()): ?>
                 <img

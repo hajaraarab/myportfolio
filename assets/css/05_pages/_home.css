@@ -16,6 +16,44 @@
     display:flex; 
     gap : var(--gap-8);
 }
+.hero-section {
+    display:flex; 
+    flex-direction: row; 
+    height: auto; 
+    padding: var(--padding-24) ;
+    gap: 40px;
+    flex: 60% 40%; 
+}
+.hero-section .image, .hero-section img {
+    max-width: 100%; 
+}
+.hero-section .image img {
+    height: 70%; 
+    border-radius: 50% 50% 0 0;
+    object-fit: cover;
+    width: 100%;
+}
+.hero-section .image {
+    display: flex; 
+    justify-content: right; 
+    overflow: hidden; 
+}
+.hero-section .content {
+    height: auto; 
+    display: flex; 
+    flex-direction: column;
+    gap: var(--gap-12);
+}
 .ampersand {
     color: var(--color-secondary) !important; 
+}
+
+.hero-buttons {
+    display:flex; 
+    gap: var(--gap-16); 
+    align-items: center;
+}
+
+.hero-section p {
+    font-size: var(--font-size-body);
 }

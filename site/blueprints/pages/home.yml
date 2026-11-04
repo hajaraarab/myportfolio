@@ -1,3 +1,4 @@
+
 title: Home
 
 columns:
@@ -12,7 +13,7 @@ columns:
         type: text
 
       introIcon:
-        label: Choose an icon
+        label: Subtitle icon
         type: files
         query: page.files.filterBy("extension", "png")
         max: 1
@@ -44,3 +45,29 @@ columns:
         max: 1
         multiple: false
         layout: cards
+
+  - width: 1
+    fields:
+      buttonsSection:
+        type: headline
+        label: Hero buttons
+
+      button1Text:
+        label: First button - Text
+        type: text
+        width: 1/2
+
+      button1Link:
+        label: First button - Link
+        type: link
+        width: 1/2
+
+      button2Text:
+        label: Second button - Text
+        type: text
+        width: 1/2
+
+      button2Link:
+        label: Second button - Link
+        type: link
+        width: 1/2

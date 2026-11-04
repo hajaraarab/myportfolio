@@ -15,6 +15,8 @@ h3{
 
 p{
     font-family: var(--font-body);
+    font-size: var(--font-size-menu);
+    color: var(--color-primary-medium-dark)
 }
 
 .logo-text{
@@ -27,7 +29,8 @@ p{
     font-family: var(--font-body);
     font-size: var(--font-size-logo-link);
     text-transform: uppercase; 
-    color: var(--color-primary); 
+    color: var(--color-primary);
+    letter-spacing: 2.6px; 
 }
 
 .menu-link{
