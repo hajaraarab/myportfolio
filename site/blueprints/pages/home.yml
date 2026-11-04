@@ -1,0 +1,46 @@
+title: Home
+
+columns:
+  - width: 3/5
+    fields:
+      titleSection:
+        type: headline
+        label: Header section
+
+      intro:
+        label: Subtitle
+        type: text
+
+      introIcon:
+        label: Choose an icon
+        type: files
+        query: page.files.filterBy("extension", "png")
+        max: 1
+
+      title1:
+        label: Main title part 1
+        type: text
+        width: 1/3
+
+      ampersand:
+        label: Ampersand (&)
+        type: text
+        width: 1/3
+
+      title3:
+        label: Main title part 2
+        type: text
+        width: 1/3
+
+      description:
+        label: Description
+        type: textarea
+
+  - width: 2/5
+    fields:
+      heroImage:
+        label: Hero image
+        type: files
+        max: 1
+        multiple: false
+        layout: cards

@@ -2,7 +2,39 @@ Title: Home
 
 ----
 
+Intro: Hello, I'm Hajar
+
+----
+
+Introicon: - file://qlc6hby8xqb5n4m3
+
+----
+
+Title1: Web Developer
+
+----
+
+Ampersand: &
+
+----
+
+Title3: UI/UX Designer
+
+----
+
+Description:
+
+I design and build beautiful, intuitive websites and apps —
+from the first wireframe to the final line of code.
+
+----
+
+Heroimage: - file://dqlv8t3c6mahdsad
+
+----
+
 Uuid: gpaj8xnw0nyzjzp0
 
 ----
+
 Text: Dit is home

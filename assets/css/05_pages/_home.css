@@ -1,0 +1,21 @@
+.intro-subtitle {
+    display:flex; 
+    align-items: center;
+    gap: var(--gap-4);
+}
+.intro-subtitle img {
+    width: 20px; 
+    height: 20px;
+}
+
+.home .titles-container h1{
+    padding: 0; 
+    margin: 0; 
+}
+.home .title-container {
+    display:flex; 
+    gap : var(--gap-8);
+}
+.ampersand {
+    color: var(--color-secondary) !important; 
+}

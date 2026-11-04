@@ -1,3 +1,18 @@
+h1 {
+    font-family: var(--font-logo);
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-h1);
+    color: var(--color-primary-dark);
+}
+h3{
+    font-family: var(--font-body);
+    font-size: var(--font-size-h3);
+    font-weight: var(--font-weight-regular);
+    text-transform: uppercase;
+    color: var(--color-secondary);
+    letter-spacing: 2.3px;
+}
+
 p{
     font-family: var(--font-body);
 }
