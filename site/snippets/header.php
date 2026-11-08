@@ -33,8 +33,11 @@
             </ul>
         </nav>
 
-        <div class="contact-btn">
-            <a class="contact-btn" href="<?= $site->find('contact')->url() ?>">Let's Talk</a>
+        <div class="contact-btn-container">
+            <a class="contact-btn" href="<?= $site->find('contact')->url() ?>">
+                Let's Talk
+                <img class="button-arrow" src="<?= url('assets/icons/arrow-white.png') ?>" alt="Arrow">
+            </a>
         </div>
         
     </header>

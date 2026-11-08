@@ -30,6 +30,7 @@
                         class="primary-btn"
                     >
                         <?= $page->button1Text()->esc() ?>
+                        <img class="button-arrow" src="<?= url('assets/icons/arrow-white.png') ?>" alt="Arrow">
                     </a>
                 <?php endif; ?>
 
@@ -39,6 +40,7 @@
                         class="secondary-btn"
                     >
                         <?= $page->button2Text()->esc() ?>
+                        <img class="button-arrow" src="<?= url('assets/icons/arrow-dark-primary.png') ?>" alt="Arrow">
                     </a>
                 <?php endif; ?>
 

@@ -8,6 +8,14 @@
     font-family: var(--font-body);
     font-size: var(--font-size-menu);
     font-weight: var(--font-weight-semibold);
+    display:flex; 
+    align-items: center;
+    gap: var(--gap-8); 
+}
+.button-arrow {
+    width: 20px; 
+    height: 20px; 
+    color: white; 
 }
 
 .primary-btn {
@@ -20,6 +28,9 @@
     font-family: var(--font-body);
     font-size: var(--font-size-menu);
     font-weight: var(--font-weight-semibold);
+    display:flex; 
+    align-items: center;
+    gap: var(--gap-8); 
 }
 .secondary-btn {
     background-color: white; 
@@ -31,4 +42,7 @@
     font-weight: var(--font-weight-semibold);
     border-radius: var(--border-radius-full);
     padding: var(--padding-12) var(--padding-24);
+    display:flex; 
+    align-items: center;
+    gap: var(--gap-8); 
 }
