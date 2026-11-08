@@ -29,11 +29,7 @@ from the first wireframe to the final line of code.
 
 ----
 
-Heroimage: - file://dqlv8t3c6mahdsad
-
-----
-
-Button1text: text
+Button1text: View My Work
 
 ----
 
@@ -41,11 +37,73 @@ Button1link: page://gpaj8xnw0nyzjzp0
 
 ----
 
-Button2text: text
+Button2text: About Me
 
 ----
 
 Button2link: page://gpaj8xnw0nyzjzp0
+
+----
+
+Socialstitle: Let's Connect
+
+----
+
+Heroimage: - file://dqlv8t3c6mahdsad
+
+----
+
+Aboutmesubtitle: ABOUT ME
+
+----
+
+Subtitleicon: - file://qlc6hby8xqb5n4m3
+
+----
+
+Abouttitle: Good code and good design belong together.
+
+----
+
+Aboutmedescription:
+
+I'm a web developer with a designer's eye. I love
+turning complex ideas into simple, delightful
+interfaces and then bringing them to life in the
+browser.
+
+----
+
+Skills:
+
+- 
+  skill: Web developer
+- 
+  skill: UI/UX designer
+- 
+  skill: 'Responsive & accessible'
+- 
+  skill: Detail obsessed
+
+----
+
+Myskillssubtitle: What I do
+
+----
+
+Skillssubtitleicon: - file://qlc6hby8xqb5n4m3
+
+----
+
+Myskillstitle: my skills
+
+----
+
+Aboutmetitle: about title
+
+----
+
+Sectionthreetitle: 
 
 ----
 

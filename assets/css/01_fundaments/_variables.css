@@ -5,7 +5,9 @@
 
     /* Font Sizes */
     --font-size-h1: 3.75rem; /* 60px */
-    --font-size-h3: 0.71875rem; /* 11.5px */
+    --font-size-h2: 1.875rem; /* 30px */
+
+    --font-size-subtitle: 0.71875rem; /* 11.5px */
 
     --font-size-logo-text: 2.5rem; /* 40px */
     --font-size-logo-link: 0.65rem; /* 10.4px */
@@ -19,6 +21,7 @@
     --color-primary-dark: #263223; 
     --color-primary-medium-dark: #5F665A; 
     --color-secondary: #C38C37;
+    --color-section-background: #E6EADB;
 
 
     /* Spacing */

@@ -1,13 +1,14 @@
-
 title: Home
 
 columns:
-  - width: 3/5
-    fields:
+  - width: 1
+    fields: 
       titleSection:
         type: headline
         label: Header section
 
+  - width: 3/5
+    fields:
       intro:
         label: Subtitle
         type: text
@@ -37,21 +38,6 @@ columns:
         label: Description
         type: textarea
 
-  - width: 2/5
-    fields:
-      heroImage:
-        label: Hero image
-        type: files
-        max: 1
-        multiple: false
-        layout: cards
-
-  - width: 1
-    fields:
-      buttonsSection:
-        type: headline
-        label: Hero buttons
-
       button1Text:
         label: First button - Text
         type: text
@@ -71,3 +57,77 @@ columns:
         label: Second button - Link
         type: link
         width: 1/2
+
+      socialsTitle:
+        label: Subtitle for social media links
+        type: text
+
+  - width: 2/5
+    fields:
+      heroImage:
+        label: Hero image
+        type: files
+        max: 1
+        multiple: false
+        layout: cards
+
+  - width: 1
+    fields:
+      aboutDivider:
+        type: line
+      titleSection2:
+        type: headline
+        label: About section
+
+      aboutMeSubtitle:
+        label: About subtitle
+        type: text
+        width: 1/2
+
+      subtitleIcon:
+        label: Subtitle icon
+        type: files
+        query: page.files.filterBy("extension", "png")
+        max: 1
+        width: 1/2
+
+      aboutTitle:
+        label: About me section title
+        type: text
+
+      aboutMeDescription:
+        label: About description
+        type: textarea
+
+      skills:
+        label: My skills
+        type: structure
+        fields:
+          skill:
+            label: Skill
+            type: text
+            required: true
+
+  - width: 1
+    fields:
+      mySkillsLine:
+        type: line
+      mySkillsSection:
+        type: headline
+        label: My Skills Section
+
+      mySkillsSubtitle:
+        label: Subtitle
+        type: text
+        width: 1/2
+
+      skillsSubtitleIcon:
+        label: Subtitle icon
+        type: files
+        query: page.files.filterBy("extension", "png")
+        max: 1
+        width: 1/2
+
+      mySkillsTitle: 
+        label: My skills section title
+        type: text
