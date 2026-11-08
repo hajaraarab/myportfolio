@@ -11,6 +11,11 @@ h2 {
     color: var(--color-primary-dark);
     margin: 0; 
 }
+h3 {
+    font-family: var(--font-logo);
+    font-size: var(--font-size-h3); 
+    font-weight: var(--font-weight-regular); 
+}
 .subtitle{
     font-family: var(--font-body);
     font-size: var(--font-size-subtitle);

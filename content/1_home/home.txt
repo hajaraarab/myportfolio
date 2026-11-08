@@ -95,7 +95,42 @@ Skillssubtitleicon: - file://qlc6hby8xqb5n4m3
 
 ----
 
-Myskillstitle: my skills
+Myskillstitle: My skills
+
+----
+
+Skillcards:
+
+- 
+  icon:
+    - file://g9aehsdxxhkizbsk
+  title: Frontend Development
+  description: |
+    Clean, accessible, responsive
+    interfaces with modern
+    frameworks.
+- 
+  icon:
+    - file://g9aehsdxxhkizbsk
+  title: UI/UX Design
+  description: |
+    Research, wireframes, prototypes
+    and intuitive visual design.
+- 
+  icon:
+    - file://g9aehsdxxhkizbsk
+  title: Full-stack Basics
+  description: |
+    APIs, databases and server logic
+    to bring ideas to life.
+- 
+  icon:
+    - file://g9aehsdxxhkizbsk
+  title: Design Systems
+  description: |
+    Reusable components and
+    tokens that keep products
+    consistent.
 
 ----
 

@@ -131,3 +131,23 @@ columns:
       mySkillsTitle: 
         label: My skills section title
         type: text
+
+      skillCards:
+        label: Skill cards
+        type: structure
+        max: 4
+        fields:
+          icon:
+            label: Skill icon
+            type: files
+            query: page.files.filterBy("extension", "png")
+            max: 1
+
+          title:
+            label: Card title
+            type: text
+            required: true
+
+          description:
+            label: Card description
+            type: textarea

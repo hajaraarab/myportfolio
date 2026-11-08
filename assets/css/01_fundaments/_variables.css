@@ -6,6 +6,7 @@
     /* Font Sizes */
     --font-size-h1: 3.75rem; /* 60px */
     --font-size-h2: 1.875rem; /* 30px */
+    --font-size-h3: 1.25rem; /* 20px */
 
     --font-size-subtitle: 0.71875rem; /* 11.5px */
 
@@ -22,7 +23,8 @@
     --color-primary-medium-dark: #5F665A; 
     --color-secondary: #C38C37;
     --color-section-background: #E6EADB;
-
+    --color-border-color: #E0DED3; 
+    --color-icon-background: #BCCAAF; 
 
     /* Spacing */
     --gap-4: 0.25rem;  /* 4px */
@@ -54,6 +56,7 @@
 
     /* Border Radius */
     --border-radius-full: 6.25rem; /* 100px */
+    --border-radius-card: 24px; 
 
     /* Font weights */
     --font-weight-regular: 400;
