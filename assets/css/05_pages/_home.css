@@ -129,3 +129,23 @@
 .skill-card p {
     line-height: 20px; 
 }
+
+.tools-banner {
+    background-color: var(--color-banner-background); 
+}
+.tools-banner .container {
+    display: flex; 
+    align-items: center;
+    gap: var(--gap-64); 
+    padding-top: var(--padding-12);
+    padding-bottom: var(--padding-12);
+}
+.tools-banner-container {
+    padding-left: var(--padding-24); 
+    padding-right: var(--padding-24); 
+}
+.tools-list {
+    display:flex; 
+    flex-direction: row;
+    gap: var(--gap-48); 
+}

@@ -28,3 +28,21 @@
         </div>
     </div>
 </div>
+
+<div class="tools-banner">
+    <div class="tools-banner-container">
+        <div class="container">
+            <p class="tools-banner-title">
+                <?= $page->toolsBannerTitle()->html() ?>
+            </p>
+
+            <div class="tools-list">
+                <?php foreach ($page->tools()->toStructure() as $tool): ?>
+                    <p class="tool">
+                        <?= $tool->tool()->html() ?>
+                    </p>
+                <?php endforeach; ?>
+            </div>
+        </div>
+    </div>
+</div>

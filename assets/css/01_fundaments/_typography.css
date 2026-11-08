@@ -54,3 +54,18 @@ p{
     color: var(--color-primary-dark); 
     text-decoration: none; 
 }
+
+.tools-banner-title {
+    font-family: var(--font-body);
+    font-size: var(--font-size-subtitle); 
+    color: var(--color-secondary); 
+    font-weight: var(--font-weight-semibold);
+    letter-spacing: 2.3px;
+    text-transform: uppercase;
+}
+.tool {
+    font-family: var(--font-body);
+    font-size: var(--font-size-menu); 
+    color: white; 
+    font-weight: var(--font-weight-regular);
+}

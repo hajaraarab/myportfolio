@@ -134,6 +134,35 @@ Skillcards:
 
 ----
 
+Toolsbannertitle: Tools title
+
+----
+
+Tools:
+
+- 
+  tool: HTML
+- 
+  tool: CSS
+- 
+  tool: SCSS
+- 
+  tool: JavaScript
+- 
+  tool: TypeScript
+- 
+  tool: React
+- 
+  tool: Tailwind
+- 
+  tool: Node.js
+- 
+  tool: Figma
+- 
+  tool: Git
+
+----
+
 Aboutmetitle: about title
 
 ----

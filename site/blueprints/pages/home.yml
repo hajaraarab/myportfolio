@@ -151,3 +151,25 @@ columns:
           description:
             label: Card description
             type: textarea
+
+  - width: 1
+    fields:
+      toolsLine:
+        type: line
+      myToolsSection:
+        type: headline
+        label: My tools banner section
+
+      toolsBannerTitle:
+        label: Banner title
+        type: text
+
+      tools:
+        label: Tools
+        type: structure
+        max: 10
+        fields:
+          tool:
+            label: Tool name
+            type: text
+            required: true
