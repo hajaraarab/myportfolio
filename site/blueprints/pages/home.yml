@@ -173,3 +173,27 @@ columns:
             label: Tool name
             type: text
             required: true
+
+  - width: 1
+    fields:
+      featuredProjectsLine:
+        type: line
+      featuredProjectsSection:
+        type: headline
+        label: Featured Projects Section
+
+      featuredProjectsSubtitle:
+        label: Subtitle
+        type: text
+        width: 1/2
+
+      featuredProjectsIcon:
+        label: Subtitle icon
+        type: files
+        query: page.files.filterBy("extension", "png")
+        max: 1
+        width: 1/2
+
+      featuredProjectsTitle: 
+        label: My featured projects section title
+        type: text

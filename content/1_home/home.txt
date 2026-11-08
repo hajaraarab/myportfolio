@@ -2,6 +2,10 @@ Title: Home
 
 ----
 
+icon: home
+
+----
+
 Intro: Hello, I'm Hajar
 
 ----
@@ -160,6 +164,18 @@ Tools:
   tool: Figma
 - 
   tool: Git
+
+----
+
+Featuredprojectssubtitle: featured projects
+
+----
+
+Featuredprojectsicon: - file://qlc6hby8xqb5n4m3
+
+----
+
+Featuredprojectstitle: Featured projects
 
 ----
 

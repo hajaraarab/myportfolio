@@ -3,3 +3,9 @@ title: Site
 sections:
   pages:
     type: pages
+    label: Website pages
+    layout: cards
+    size: large
+    image: 
+      query: page.icon
+      back: white

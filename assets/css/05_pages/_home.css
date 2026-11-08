@@ -149,3 +149,8 @@
     flex-direction: row;
     gap: var(--gap-48); 
 }
+
+.featured-projects {
+    padding-top: var(--padding-64); 
+    padding-bottom: var(--padding-64); 
+}
