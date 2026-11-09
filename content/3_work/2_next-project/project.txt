@@ -1,0 +1,29 @@
+Title: next project
+
+----
+
+Projecttitle: next project
+
+----
+
+Projectcategory: dfoejfe
+
+----
+
+Projectdescription: fjoegheoghoe
+
+----
+
+Projectnumber: 2
+
+----
+
+Projectyear: 2026
+
+----
+
+Cover: - file://jwb36d1cxuox0ce2
+
+----
+
+Uuid: rlse6wvcwetoj2qh

@@ -1,0 +1,54 @@
+title: Work
+
+columns:
+  - width: 1
+    fields: 
+      titleSection:
+        type: headline
+        label: My portfolio overview
+
+      subtitle:
+        label: Subtitle
+        type: text
+        width: 1/2
+
+      subtitleIcon:
+        label: Subtitle icon
+        type: files
+        query: page.files.filterBy("extension", "png")
+        max: 1
+        width: 1/2
+
+      title1: 
+        label: Title (part 1)
+        type: text
+        width: 1/2
+
+      title_styled: 
+        label: Title (part 2)
+        type: text
+        width: 1/2
+
+      description: 
+        label: Page description
+        type: textarea
+
+      projectsDivider:
+        type: line
+
+  - width: 1
+    sections:
+      projects:
+        type: pages
+        label: My projects
+        parent: page
+        templates:
+          - project
+        layout: cards
+        size: large
+        image:
+          query: page.cover.toFile
+          cover: true
+          ratio: 5/4
+        text: "{{ page.projectTitle }}"
+        info: "{{ page.projectCategory }}"

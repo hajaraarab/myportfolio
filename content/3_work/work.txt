@@ -2,6 +2,30 @@ Title: Work
 
 ----
 
+Subtitle: portfolio
+
+----
+
+Subtitleicon: - file://1gyp8ftwefhnczzh
+
+----
+
+Title1: Selected
+
+----
+
+Title-styled: work
+
+----
+
+Description: A selection of projects where I handled both the design and the development.
+
+----
+
+Projects: - page://gpaj8xnw0nyzjzp0
+
+----
+
 Text: Dit is work
 
 ----

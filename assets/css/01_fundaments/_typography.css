@@ -69,3 +69,17 @@ p{
     color: white; 
     font-weight: var(--font-weight-regular);
 }
+.project-number {
+    font-family: var(--font-body); 
+    font-size: var(--font-size-subtitle); 
+    color: var(--color-secondary); 
+    font-weight: var(--font-weight-semibold); 
+    letter-spacing: 2.3px;
+}
+.project-discription {
+    font-size: 12px; 
+    font-family: var(--font-body); 
+    font-weight: var(--font-weight-regular);
+    line-height: 16px; 
+    color: var(--color-primary-medium-dark); 
+}
